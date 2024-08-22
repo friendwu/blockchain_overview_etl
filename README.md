@@ -1,3 +1,8 @@
+## Description
+A blockchain data etl library(imitating ethereum-etl's code structure) that support crawling coinmarketcap/defillama/stakingrewards data and export them into Postgresql database or local fs.
+
+For detailed data format, please refer path **schemas/pg/overview.sql**.
+
 ## Usage
 
 ```
@@ -14,3 +19,5 @@ python ./overviewetl.py export_defillama_chain_tvl --chain Ethereum --data-range
 
 python ./overviewetl.py export_stakingrewards_staking --chain cardano --data-range-mode 7D --output-file 3.csv
 ```
+
+For detailed cli parameters, please refer path **overviewetl/cli/**
