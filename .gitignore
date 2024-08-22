@@ -1,0 +1,10 @@
+.tmp
+.idea
+venv
+.venv
+.env
+.envrc
+*.csv
+*.json
+*.code-workspace
+__pycache__
